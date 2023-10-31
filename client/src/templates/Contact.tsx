@@ -27,7 +27,7 @@ const Container = styled.div`
     
     nav ul li {
         display: inline;
-        margin-right: 20px;
+        margin-right: 2vw;
     }
     
     nav ul li:last-child {
@@ -38,7 +38,7 @@ const Container = styled.div`
         text-decoration: none;
         color: #6c5ce7;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 18px; 
     }
     
     section {
@@ -47,10 +47,11 @@ const Container = styled.div`
     }
     
     footer {
-        background-color: #333;
-        color: #fff;
+        background-color: #fff;
+        color: #6c5ce7;
         text-align: center;
         padding: 10px 0;
+        box-shadow: 0px -5px 5px 0px #dfe6e9
     }
 `
 
@@ -60,17 +61,17 @@ export default () => <>
             <header>
                 <nav>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link to="/products">Products</Link></li>
                         <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/about">About</Link></li>
                     </ul>
                 </nav>
             </header>
 
             <section id="contact">
                 CONTATINHOS
-            </section>   
+            </section>
 
             <footer>
                 <p>&copy; 2023 Corretora de Imóveis</p>

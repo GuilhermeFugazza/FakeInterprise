@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homepage from "./templates/Homepage"
+import Homepage from "./templates/home/Homepage.tsx"
 import About from "./templates/About"
 import Contact from "./templates/Contact"
 import Products from "./templates/Products"

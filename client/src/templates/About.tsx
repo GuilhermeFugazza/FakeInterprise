@@ -47,10 +47,11 @@ const Container = styled.div`
     }
     
     footer {
-        background-color: #333;
-        color: #fff;
+        background-color: #fff;
+        color: #6c5ce7;
         text-align: center;
         padding: 10px 0;
+        box-shadow: 0px -5px 5px 0px #dfe6e9
     }
 `
 
@@ -60,10 +61,10 @@ export default () => <>
             <header>
                 <nav>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link to="/products">Products</Link></li>
                         <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/about">About</Link></li>
                     </ul>
                 </nav>
             </header>
